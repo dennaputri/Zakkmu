@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">zakkmu</string>
+    <string name="desc"> Zakkmu dapat membantu kamu untuk menghitung zakat fitrah yang harus dibayarkan oleh wajib zakat</string>
+    <string name="fitrah">Zakat Fitrah merupakan zakat yang wajib dikeluarkan oleh setiap muslim ketika bulan Ramadan dan dibayarkan sebelum pelaksanaan salat Idul Fitri.</string>
+    <string name="hitung"> Kamu dapat menghitung zakat fitrah dengan mengisi informasi dibawah ini:</string>
+    <string name="input1"> Jumlah Jiwa</string>
+    <string name="input2"> Harga beras per-kg</string>
+    <string name="button"> Hitung Zakat</string>
 </resources>
