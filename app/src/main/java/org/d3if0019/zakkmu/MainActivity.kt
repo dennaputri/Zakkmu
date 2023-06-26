@@ -3,13 +3,18 @@ package org.d3if0019.zakkmu
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
-import android.util.Log
 import android.widget.Toast
+import androidx.lifecycle.ViewModelProvider
 import org.d3if0019.zakkmu.databinding.ActivityMainBinding
+import org.d3if0019.zakkmu.model.HasilZakat
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private val viewModel: MainViewModel by lazy {
+        ViewModelProvider(this)[MainViewModel::class.java]
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -28,10 +33,17 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, R.string.harga_invalid, Toast.LENGTH_LONG).show()
             return
         }
-       val zakat = jiwa.toInt() * harga.toFloat()
-        val beras = jiwa.toInt() * 2.5.toFloat()
 
-        binding.bmiTextView.text = getString(R.string.zakat_x,zakat)
-        binding.beras.text = getString(R.string.beras_x,beras)
+        val result = viewModel.hitungZakatt(
+            jiwa.toInt(),
+            harga.toFloat(),
+        )
+        showResult(result)
     }
+
+    private fun showResult(result: HasilZakat){
+        binding.bmiTextView.text=getString(R.string.zakat_x,result.zakat)
+        binding.beras.text =getString(R.string.beras_x,result.beras )
+    }
+
 }

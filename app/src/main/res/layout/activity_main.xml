@@ -124,7 +124,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/bmiTextView"
         tools:text="Atau setara dengan : 24,09" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>
