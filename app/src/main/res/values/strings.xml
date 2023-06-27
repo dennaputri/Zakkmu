@@ -12,6 +12,13 @@
     <string name="harga_invalid">Harga tidak boleh kosong.</string>
     <string name="berat_badan">Berat badan (kg)</string>
     <string name="tinggi_badan">Tinggi badan (cm)</string>
+    <string name="mahzab">Ulama mazhab, berbeda pendapat mengenai boleh tidaknya mengeluarkan zakat dengan uang (harga) sebagai ganti dari harta zakat yang harus dikeluarkan. Ulama mazhab juga berbeda pendapat pada memahami ukuran 1 (satu) sha’ yang dijadikan takaran untuk zakat fitrah. Perbedaan juga terjadi pada orang-orang yang berhak menerimanya. Namun tulisan ini hanya menyorot sisi mengeluarkan zakat fitrah dengan uang (harga) berdasarkan dinamika mazhab empat.
+    Munculnya perbedaan pendapat mengenai boleh tidaknya mengeluarkan zakat fitrah dengan harga (uang) ini dikarenakan adanya perbedaan dalam memahami hadis Nabi saw yang berkaitan dengan zakat. Perbedaan orang-orang tertentu seperti Imam mujtahid dalam memahami teks Alquran dan hadis mendatangkan rahmat untuk umat manusia khususnya Islam.
+    </string>
+    <string name="buttmahzab">Lihat Mahzab</string>
+    <string name="tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="copyright">Aplikasi Zakkmu merupakan aplikasi seputar zakat dengan fitur perhitungan zakat fitrah dan informasi terkait zakat. Aplikasi zakkmu membantu pengguna untuk menghitung besaran zakat yang harus dikeluarkan sesuai dengan jumlah jiwa dan harga beras pada saat ini. Temukan kodenya di Aplikasi Zakkmu merupakan aplikasi seputar zakat dengan fitur perhitungan zakat fitrah dan informasi terkait zakat. Aplikasi zakkmu membantu pengguna untuk menghitung besaran zakat yang harus dikeluarkan sesuai dengan jumlah jiwa dan harga beras pada saat ini\n\nCopyright © 2023 Denna Auliya.\nAll rights reserved.</string>
+
 
 
 </resources>
